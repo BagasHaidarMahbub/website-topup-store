@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    border: 2px solid #ccc; /* Mengatur border kotak */
+    padding: 15px; /* Mengatur padding di dalam kotak */
+    width: 300px; /* Sesuaikan lebar kotak *//* Mengatur teks dan logo di tengah */
+    margin: 20px; /* Mengatur margin kotak agar berada di tengah halaman */
+    border-radius: 8px; /* Membuat sudut kotak melengkung */
+    background-color: #f9f9f9;
+}
+
+.form-group img {     
+    width: 30%;* Agar gambar dan teks berada pada garis vertikal yang sama */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0099ff;
+}
